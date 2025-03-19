@@ -1,5 +1,5 @@
 /* importamos las fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 *{
     font-family: "Titillium Web";
     margin: 0;
@@ -42,8 +42,33 @@ html{
 }
 
 /* SECCION INICIO */
+*{
+    font-family: "Anta",sans-serif;
+    margin: 400;
+    padding: normal;
+    /*font-family: "Titillium Web";
+        margin: 0;
+        padding: 0;*/
+}
+/* SECCION INICIO  imagen de fondo */
+@keyframes cambiarFondo {
+    0% {
+        background-image: url("img/fondo.jpg");
+    }
 
+    50% {
+        background-image: url("img/fondo2.jpg");
+    }
 
+    100% {
+        background-image: url("img/fondo22.jpg");
+    }
+}
+
+.inicio {
+    animation: cambiarFondo 10s infinite alternate;
+    background-size: cover;
+}
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/fondo22.jpg");
