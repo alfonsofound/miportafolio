@@ -351,12 +351,15 @@ html{
 .contacto .contenido-seccion .fila{
     display: flex;
     justify-content: space-around;
+    font-size: 30px;
 }
 .contacto .contenido-seccion .fila .col{
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: #021d94;
+    color: ##010721;
+    font-size: 30px;
+    
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
