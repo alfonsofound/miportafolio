@@ -361,6 +361,16 @@ html{
     font-size: 30px;
     
 }
+@keyframes girar{
+    0%{transform: rotate(30deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+.icono{
+    animation: girar 3s linear;
+}
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
