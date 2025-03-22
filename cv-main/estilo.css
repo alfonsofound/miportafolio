@@ -361,12 +361,14 @@ html{
     font-size: 30px;
     
 }
+
+.icono{
 @keyframes girar{
     0%{transform: rotate(30deg);}
     100%{transform: rotate(360deg);}
 
 }
-
+}
 .icono{
     animation: girar 3s linear;
 }
