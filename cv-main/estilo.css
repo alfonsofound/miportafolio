@@ -363,15 +363,20 @@ html{
 }
 
 .icono{
-@keyframes girar{
-    0%{transform: rotate(30deg);}
-    100%{transform: rotate(360deg);}
-
+    font-size:30px;
+    transition:transform 1s ease-in-out;
 }
+.rotate{
+    animation:spin 2s linear 3;
 }
-.icono{
-    animation: girar 3s linear;
-}
+    @keyframes spin{
+        from{
+            transform:rotate(0deg);
+        }
+        to{
+            transform:rotate(1080deg);
+        }
+    }
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
