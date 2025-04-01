@@ -411,3 +411,20 @@ html{
         display: block;
     }
 }
+/secion descargar cv/
+
+.download-cv {
+    width: 100px;
+    height: 60px;
+    text-decoration: none !important;
+    justify-content: center center;
+    border-radius:100px;
+    cursor: pointer;
+    transition:background-color 2ease;
+    padding :10px 20px;
+    background-color: #f4f5f7;
+    transform: scale(0.80);
+    color: #000000;
+    border:3px solid #021d94;
+    box-shadow:2px 4px 10px rgba(0,0,0,.2);
+}
