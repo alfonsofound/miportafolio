@@ -411,20 +411,52 @@ html{
         display: block;
     }
 }
-/secion descargar cv/
+/* button*/
 
-.download-cv {
-    width: 100px;
-    height: 60px;
-    text-decoration: none !important;
-    justify-content: center center;
-    border-radius:100px;
+button {
+
+background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF );
+ 
+    border-radius: 5px;
+    color: #e6e6e6;
+    
+    font-size: 19px;
+    padding: 4px;
     cursor: pointer;
-    transition:background-color 2ease;
-    padding:10px 20px;
-    background-color: #f4f5f7;
-    transform: scale(0.80);
-    color: #000000;
-    border:3px solid #021d94;
-    box-shadow:2px 4px 10px rgba(0,0,0,.2);
+    transition: .3s;
+    border: 0;
+    
 }
+
+button span {
+    background-color: #111;
+    padding: 16px 30px;
+    border-radius: 6px;
+    transition: .6s;
+    color: #fff;
+
+
+
+}
+
+button:hover span {
+    background: none;
+
+
+}
+
+button:active {
+
+    transform: scale(0.9);
+
+}
+
+
+
+
+
+
+
+
+
+
