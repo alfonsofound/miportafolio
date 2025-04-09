@@ -3,14 +3,14 @@
   "short_name": "ARC portafolio",
   "icons": [
     {
-      "src": "https://miportafolio-aatj.vercel.app/web-app-manifest-192x192.png",
+      "src": "https://miportafolio-aatj.vercel.app/cv-main/favicon/web-app-manifest-192x192.png",
         
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://miportafolio-aatj.vercel.app/web-app-manifest-512x512.png",
+      "src": "https://miportafolio-aatj.vercel.app/cv-main/favicon/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
